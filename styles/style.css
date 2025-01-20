@@ -59,6 +59,7 @@ body {
 }
 
 
+
 /* navbar styles */
 
 .navbar {
@@ -84,13 +85,13 @@ body {
 
 .nav-items {
     list-style: none;
-    margin-right: 32px;
+    margin-right: 42px;
 }
 
 .nav-link {
     text-decoration: none;
     font-size: 1.25rem;
-    font-weight: 500
+    font-weight: 500;
 }
 
 .contact-btn {
@@ -100,6 +101,7 @@ body {
     border-radius: 12px;
     color: #fff;
     font-size: 1.25rem;
+    font-family: "Quicksand", serif;
 }
 
 
@@ -115,14 +117,51 @@ body {
     margin-right: 4px;
 }
 
+/* banner section styles */
+
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-content {
+    max-width: 640px;
+    margin: 130px 0;
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    line-height: 61px;
+}
+
+.banner-description {
+    font-size: 1.25rem;
+    margin: 24px 0;
+}
+
+.banner-content .contact-btn {
+    background-color: #000;
+}
+
 
 /* Responsive media query */
 
 @media screen and (max-width: 576px) {
 
-    .navbar {
-        justify-content: space-between;
-    }
+  .navbar {
+    justify-content: space-between;
+    border-bottom: 1px solid #FEA301;
+  }
+
+  .logo img {
+    margin-bottom: 10px;
+    margin-left: 8px
+  }
   .school-name, .nav-links, .contact-btn {
     display: none;
   }
@@ -130,7 +169,36 @@ body {
   .toggle-bar {
     display: block;
     margin-top: 12px;
-    margin-right: 25px;
+    margin-right: 40px;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .banner img {
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: -94px;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .banner-description {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .banner-content .contact-btn {
+    display: inline;
+    font-size: 1rem;
   }
 }
 
