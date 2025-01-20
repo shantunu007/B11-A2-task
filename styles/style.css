@@ -7,3 +7,106 @@
 /* raleway font */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", serif;
+    font-weight: 400;
+}
+
+/* shared styles */
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-semibold {
+    font-weight: 600;
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+
+.text-orange {
+    color: #FEA301;
+}
+
+.text-sky {
+    color: #01ACFD;
+}
+
+.text-pink {
+    color: #05D4DF;
+}
+
+.text-blue {
+    color: #5D58EF;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* .display-none {
+    display: none;
+} */
+
+/* navbar styles */
+
+.navbar {
+    max-width: 1440px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.logo, .nav-links {
+    align-items: center;
+}
+
+.school-name {
+    font-size: 2rem;
+    color: #000;
+    margin-left: 11px;
+}
+
+
+.nav-items {
+    list-style: none;
+    margin-right: 32px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500
+}
+
+.contact-btn {
+    padding: 10px 60px;
+    background-color: #FEA301;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+
+.toggle-bar {
+    transform: rotate(90deg);
+    display: none;
+  }
+
+.top-line, .middle-line, .bottom-line {
+    padding: 1px;
+    background-color: #000;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+
