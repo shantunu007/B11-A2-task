@@ -281,6 +281,10 @@ a.read-more-btn {
     text-align: center;
   }
 
+  .banner-content {
+    padding: 0 7px;
+  }
+
   .banner img {
     align-items: center;
     margin-left: 5%;
@@ -304,5 +308,53 @@ a.read-more-btn {
     display: inline;
     font-size: 1rem;
   }
+
+  .curriculum {
+    margin-top: -60px;
+  }
+
+  .bg {
+    background-position: top;
+  }
+
+  .curriculum-title {
+    font-size: 1.63rem;
+    margin-bottom: 10px;
+  }
+
+  
+
+  .single-card {
+    width: 90%;
+    margin-left: 5%;
+    height: 321px;
+  }
+
+  .single-card img {
+    margin-top: 22px;
+    width: 33%;
+}
+
+  .card-title {
+    font-size: 1rem;
+    margin: 22px 0;
+  }
+
+  .card-description, .read-more-btn {
+    font-size: 0.64rem;
+    line-height: 19.2px;
+    margin-bottom: 22px;
+  }
+
+  .curriculum-cards-container {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .prev-next-icon {
+    display: none;
+  }
+
+
 }
 
