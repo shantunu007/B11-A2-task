@@ -54,9 +54,10 @@ body {
     display: flex;
 }
 
-/* .display-none {
-    display: none;
-} */
+.logo, .nav-links {
+    align-items: center;
+}
+
 
 /* navbar styles */
 
@@ -64,6 +65,10 @@ body {
     max-width: 1440px;
     margin: 20px auto;
     justify-content: space-between;
+}
+
+.logo-img {
+    width: 100%;
 }
 
 .logo, .nav-links {
@@ -108,5 +113,24 @@ body {
     background-color: #000;
     border-radius: 5px;
     margin-right: 4px;
+}
+
+
+/* Responsive media query */
+
+@media screen and (max-width: 576px) {
+
+    .navbar {
+        justify-content: space-between;
+    }
+  .school-name, .nav-links, .contact-btn {
+    display: none;
+  }
+  
+  .toggle-bar {
+    display: block;
+    margin-top: 12px;
+    margin-right: 25px;
+  }
 }
 
