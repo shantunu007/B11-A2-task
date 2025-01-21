@@ -67,6 +67,14 @@ body {
 
 /* navbar styles */
 
+.notice {
+  background-color: #01ACFD;
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
 
 
 .navbar {
@@ -458,6 +466,10 @@ a.read-more-btn {
 
 @media screen and (max-width: 576px) {
 
+  .notice {
+    font-size: 0.85rem;
+  }
+
   .navbar {
     justify-content: space-between;
     border-bottom: 1px solid #FEA301;
@@ -474,7 +486,7 @@ a.read-more-btn {
   .toggle-bar {
     display: block;
     margin-top: 12px;
-    margin-right: 40px;
+    margin-right: 26px;
   }
 
   .banner {
@@ -664,6 +676,10 @@ a.read-more-btn {
 
   .keep {
     font-size: 1.4rem;
+  }
+
+  .icons img {
+    width: 8%;
   }
 
 }
