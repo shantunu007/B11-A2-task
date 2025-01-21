@@ -50,6 +50,10 @@ body {
     color: #5D58EF;
 }
 
+.text-white {
+  color: #fff;
+}
+
 .display-flex {
     display: flex;
 }
@@ -188,6 +192,7 @@ body {
     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);   
 }
 
+
 .middle {
     border: 0.94px solid rgb(217, 235, 238);
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.01);
@@ -209,6 +214,10 @@ body {
 
 .single-card img {
     margin-top: 52px;
+}
+
+.middle img, .right img {
+  margin-top: 64px;
 }
 
 .card-title {
@@ -263,6 +272,8 @@ a.read-more-btn {
 
   .our-stories {
     margin-top: 120px;
+    margin-bottom: 0;
+
   }
 
   .stories-content img {
@@ -375,6 +386,63 @@ a.read-more-btn {
     margin-bottom: 60px;
   }
 
+  /* footer section styles */
+
+  .footer {
+    background: #01ACFD;
+  }
+
+  .footer-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .footer-container .school-info {
+    padding-top: 123px;
+  }
+
+  .school-name {
+    font-size: 2.63rem;
+    color: #fff;
+  }
+
+  .school-description {
+    max-width: 399px;
+    font-size: 1.25rem;
+    color: #fff;
+    padding-top: 35px;
+    padding-bottom: 179px;
+  }
+
+  .about-school {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+
+  .about, .icons {
+    padding-top: 123px;
+  }
+
+  .about .nav-items {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about .nav-items:nth-child(1) {
+    margin-top: 32px;
+  }
+
+  .keep {
+    font-size: 1.63rem;
+  }
+
+  .icons img {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
   
 
 
@@ -538,6 +606,56 @@ a.read-more-btn {
     margin-bottom: 20px;
   }
 
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .school-info .school-name {
+    display: block;
+    font-size: 2.2rem;
+  }
+
+  .school-description {
+    font-size: 1rem;
+    padding-left: 21px;
+    padding-right: 12px;
+    margin-top: -24px;
+  }
+
+  .about {
+    padding-left: 20px;
+    margin-top: -260px;
+  }
+
+  .about-school {
+    font-size: 1.25rem;
+  }
+
+  .icons {
+    padding-left:20px;
+    margin-top: -110px;
+    margin-bottom: 55px;
+  }
+
+  .about .nav-links {
+    display: block;
+  }
+
+  .about .nav-link {
+    font-size: 1rem;
+  }
+
+  .about .nav-items:nth-child(1) {
+    margin-top: 22px;
+  }
+
+  .footer-container .school-info {
+    padding-top: 70px;
+  }
+
+  .keep {
+    font-size: 1.4rem;
+  }
 
 }
 
