@@ -66,7 +66,7 @@ body {
 
 
 .navbar {
-    max-width: 1440px;
+    max-width: 1160px;
     margin: 20px auto;
     justify-content: space-between;
 }
@@ -123,7 +123,7 @@ body {
 /* banner section styles */
 
 .banner {
-    max-width: 1440px;
+    max-width: 1160px;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -154,19 +154,19 @@ body {
 /* standard curriculum styles */
 
 .bg {
-    background-image: url(../images/bg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  background: url(../images/bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
-.curriculum {
-    max-width: 1440px;
+.curriculum, .our-stories {
+    max-width: 1160px;
     margin: 60px auto;
 }
 
-.curriculum-title {
+.curriculum-title, .stories-title{
     text-align: center;
     font-size: 2.88rem;
 }
@@ -251,6 +251,127 @@ a.read-more-btn {
   .circle:hover {
     background-color: #CE9227;
   }
+
+  /* our stories styles */
+
+
+
+  main{
+    background: url(../images/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-size: contain;
+  }
+
+  .our-stories {
+    margin-top: 120px;
+  }
+
+  .stories-content img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .stories-gallery-container {
+    padding-top: 80px;
+    gap: 19px;
+    justify-content: space-between;
+  }
+
+  .stories-content {
+    max-width: 540px;
+    background-color: #fff;
+    border-radius: 16px;
+  }
+
+  .stories-date {
+    padding: 14px 18px;
+    background-color: #3CD8E8;
+    position: relative;
+    bottom: 28px;
+    left: 38px;
+    width: 32%;
+    border-radius: 48px;
+  }
+
+  .date {
+    font-size: 0.96rem;
+    color: #fff;
+    font-family: "Raleway", serif;
+    
+  }
+
+  .content-title {
+    font-size: 1.5rem;
+    color: #000;
+    max-width: 402px;
+    margin-left: 38px;
+    margin-top: 33px;
+    margin-bottom: 47px;
+  }
+
+  .stories-description {
+    font-size: 0.96rem;
+    color: #666666;
+    padding-left: 38px;
+    padding-right: 68px;
+    line-height: 28.8px;
+    padding-bottom: 34px;
+    font-family: "Raleway", serif;
+  }
+
+  .small-stories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+  }
+
+  .single-stories:nth-child(3), .single-stories:nth-child(4) {
+    display: none;
+  }
+
+  .single-stories {
+    width: 290px;
+    background-color: #fff;
+    border-radius: 16px;
+  }
+
+  .single-stories img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .single-stories .date {
+    padding: 9px 18px;
+    background-color: #95B226;
+    width: 61%;
+    font-size: 0.95rem;
+    position: relative;
+    left: 38px;
+    bottom: 28px;
+    border-radius: 47px;
+  }
+
+  .single-stories .small-width {
+    width: 44%;
+  }
+  .single-stories .sky {
+    background-color: #5D58F0;
+  }
+
+  .small-title {
+    padding: 0px 38px 28px 38px;
+    line-height: 28.8px;
+    font-size: 0.95rem;
+  }
+
+  .our-stories .contact-btn {
+    text-align: center;
+    background-color: #000;
+    margin-left: calc(100% - 58%);
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+
+  
 
 
 /* Responsive media query */
