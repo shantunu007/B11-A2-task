@@ -587,7 +587,6 @@ a.read-more-btn {
 
   .single-stories {
     width: 100%;
-
   }
 
   .single-stories:nth-child(3), .single-stories:nth-child(4) {
@@ -602,6 +601,7 @@ a.read-more-btn {
     width: 69%;
     margin-left: -22px;
     margin-top: 5px;
+    text-align: center;
   }
 
   .single-stories .small-width {
