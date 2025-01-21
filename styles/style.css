@@ -346,7 +346,7 @@ a.read-more-btn {
     font-size: 0.95rem;
     position: relative;
     left: 38px;
-    bottom: 28px;
+    bottom: 25px;
     border-radius: 47px;
   }
 
@@ -363,10 +363,14 @@ a.read-more-btn {
     font-size: 0.95rem;
   }
 
+  .view-btn {
+    justify-content: center;
+    align-items: center;
+  }
+
   .our-stories .contact-btn {
     text-align: center;
     background-color: #000;
-    margin-left: calc(100% - 58%);
     margin-top: 80px;
     margin-bottom: 60px;
   }
@@ -474,6 +478,64 @@ a.read-more-btn {
 
   .prev-next-icon {
     display: none;
+  }
+
+  .stories-title {
+    font-size: 1.63rem;
+    margin-top: -76px;
+    margin-bottom: -48px;
+  } 
+
+  .stories-content {
+    display: none;
+  }
+
+  .small-stories {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 11px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .single-stories {
+    width: 100%;
+
+  }
+
+  .single-stories:nth-child(3), .single-stories:nth-child(4) {
+    display: block;
+  }
+
+  .small-stories .date, .small-stories .small-title {
+    font-size: 0.57rem;
+  }
+
+  .single-stories .date {
+    width: 70%;
+    margin-left: -22px;
+    margin-top: 5px;
+  }
+
+  .single-stories .small-width {
+    width: 52%;
+  }
+
+  .small-stories {
+    margin-bottom: 100px;
+  }
+
+  .small-title {
+    padding: 0 25px;
+    margin-top: -16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+
+  .our-stories .contact-btn {
+    display: block;
+    font-size: 1rem;
+    margin-top: -92px;
+    margin-bottom: 20px;
   }
 
 
