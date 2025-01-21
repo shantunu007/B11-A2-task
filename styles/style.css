@@ -73,6 +73,7 @@ body {
     max-width: 1160px;
     margin: 20px auto;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo-img {
@@ -109,6 +110,7 @@ body {
     color: #fff;
     font-size: 1.25rem;
     font-family: "Quicksand", serif;
+    cursor: pointer;
 }
 
 
@@ -159,8 +161,8 @@ body {
 
 .bg {
   background: url(../images/bg.png);
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
@@ -240,8 +242,9 @@ a.read-more-btn {
     margin-bottom: 53px;
 }
 
-.prev-next-icon {
-    text-align: center;
+.prev-next-icon {  
+  justify-content: center;
+  text-align: center;
 }
 
 .circle {
@@ -266,8 +269,13 @@ a.read-more-btn {
 
 
   main{
-    background: url(../images/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background: linear-gradient(0.00deg, rgba(254, 161, 1, 0.171),rgba(255, 255, 255, 0.3) 100%);
+  }
+
+  .our-stories {
+    background: url(../images/bg.png);
     background-size: contain;
+    
   }
 
   .our-stories {
@@ -402,7 +410,7 @@ a.read-more-btn {
     padding-top: 123px;
   }
 
-  .school-name {
+  .school-info .school-name {
     font-size: 2.63rem;
     color: #fff;
   }
@@ -617,7 +625,8 @@ a.read-more-btn {
 
   .school-description {
     font-size: 1rem;
-    padding-left: 21px;
+    margin-left: 21px;
+    margin-right: 21px;
     padding-right: 12px;
     margin-top: -24px;
   }
